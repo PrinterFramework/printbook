@@ -1,0 +1,33 @@
+@import "/scss/theme";
+
+@mixin form-styles {
+  max-width: 420px;
+  padding: $component-padding;
+  background: $background;
+
+  h1 {
+    text-align: center;
+  }
+
+  a.button {
+    margin: $component-padding 0;
+    @include transition;
+  }
+
+  a.link {
+    text-align: center;
+    display: block; // Ensures that the link behaves as a block for centering
+  }
+}
+
+.login-form {
+  @include form-styles;
+}
+
+.register-form {
+  @include form-styles;
+}
+
+.home-panel {
+  @include form-styles;
+}

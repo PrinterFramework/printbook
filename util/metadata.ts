@@ -1,17 +1,15 @@
 import type { Metadata } from 'next'
 
-export const Name = 'Just Print It | Template'
-export const ShortName = 'Just Print It'
+export const Name = 'Printbook'
+export const ShortName = 'Printbook'
 export const Description =
-  'Experience the future of Next.js with Just Print It, the Generative AI Workstation for Next. Empower your creativity and accelerate innovation using our state-of-the-art platform designed for the next generation of AI developers.'
+  'Share your prints effortlessly with Printbook, your go-to platform for managing and showcasing your creative works.'
 export const Icon = '/assets/img/logo.png'
 export const IconType = 'image/png'
-export const Keywords = ['Printer', 'Generative', 'AI', 'Next.js', 'GenAI']
-export const URL = 'https://justprintit.ai'
-export const OGImage = 'https://justprintit.ai/assets/img/og.jpg'
+export const Keywords = ['Printer', 'Printbook', 'Sharing', 'Creativity']
+export const URL = 'https://printbook.ai'
+export const OGImage = 'https://printbook.ai/assets/img/og.jpg'
 
-// This is a boilerplate Metadata Helper Function
-// You will want to granularize and update this for articles or other webpage types
 export interface GenerateMetadataInterface {
   title?: string
   description?: string
@@ -50,7 +48,7 @@ export function GenerateMetadata({
       title,
       description,
       images: ogImage,
-      creator: '@justprintit',
+      creator: '@printbook',
       card: 'summary_large_image'
     }
   }

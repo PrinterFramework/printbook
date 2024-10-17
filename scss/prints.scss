@@ -1,0 +1,21 @@
+@import "/scss/theme";
+
+@mixin create-post-form {
+  display: block;
+  max-width: 420px;
+  padding: $component-padding;
+  margin: auto;
+  @include transition;
+}
+
+@mixin card-posts {
+  margin: $component-padding 0;
+}
+
+.create-post-form {
+  @include create-post-form;
+}
+
+.card-post {
+  @include card-posts;
+}

@@ -10,7 +10,7 @@ $red: #e9524a;
 $yellow: #f1ae1b;
 $green: #59c837;
 $navigation-width: 320px;
-$page-height: 100vh;
+$page-height: calc(100vh - 72px);
 $container-width: 1268px;
 $container-height: calc(100vh - 72px);
 $component-height: 42px;
